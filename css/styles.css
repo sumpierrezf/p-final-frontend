@@ -1,3 +1,5 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
 *{
     box-sizing: border-box;
     color: black;
@@ -5,4 +7,71 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    font-family: Be Vietnam Pro;
+    border: solid 1px black;
+}
+
+body *{
+    font-size: 16px;
+}
+
+header{
+    padding: 20px 4%;
+}
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    /* max-width: 1440px; */
+}
+
+nav ul{
+    display: flex;
+    gap: 1em;
+    /* padding: 10px; */
+    cursor: pointer;
+}
+
+.btn_menu {
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 100px;
+}
+
+.btn_contact{
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 100px;
+    align-self: flex-end;
+}
+
+.main_container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    text-align: end;
+    padding: 3%;
+    gap: 3%;
+}
+
+.main_container img{
+    width: 50%;
+}
+.texto_imagen {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.texto_imagen h3 {
+    font-size: 2.75rem;
+    font-weight: 700;
+    line-height: 114.6%;
 }
