@@ -2,7 +2,6 @@
   @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
 *{
     box-sizing: border-box;
-    color: black;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -74,4 +73,70 @@ nav ul{
     font-size: 2.75rem;
     font-weight: 700;
     line-height: 114.6%;
+}
+
+/*****  ---------------------- Seccion  Ventajas ------------------------ */
+
+
+.ventajas_container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width:80%;
+    margin: auto;
+    padding: 3%;
+    gap: 3%;
+}
+.ventajas_title {
+    background-color: #8B48BF;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    padding: 40px 40px;
+    align-items: center;
+}
+.ventajas_title h2 {
+    max-width: 40%;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 114.6%;
+}
+.ventajas_title p {
+    max-width: 450px;
+    line-height: 24.18px;
+}
+/* **** ------------- Articulos -------------- */
+.articulos_container{
+    background: #FAFAFA;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3.125rem;
+    padding: 2.5rem 0rem;
+}
+.articulo {
+    width: 40%;
+}
+.titulo_articulo{
+    display: flex;
+    gap: 1.4375rem;
+    align-items: center;
+}
+.titulo_articulo button {
+    color: #ffffff;
+    border:none;
+    border-radius: 1.875rem;
+    background: #8B48BF;
+    display: flex;
+    padding: 0.625rem 1.5625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+}
+.articulo p {
+    padding:  10px 0px;
+    padding-left: 17%;
+    color: #B3B2B7;
 }
