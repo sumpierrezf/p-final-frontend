@@ -1,6 +1,9 @@
 # p-final-frontend
 Proyecto final de Frontend.
 Participantes: Emmanuel Solís Ruíz, Shirley Virginia Umpiérrez.
+Emmanuel hizo la sección articles, y el footer.
+Shirley hizo el main y sección cards.
+Juntos hicimos el header.
 Camada: 3.
 
 ## El reto
